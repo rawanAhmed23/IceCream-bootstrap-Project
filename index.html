@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.css">
+    <link rel="stylesheet" href="Css/style.css">
+    
+    <title>IceCream Shop</title>
+</head>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid  py-3 d-none d-md-block bg-pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0 ">
+                    <div class="d-inline-flex align-items-center mt-2">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-secondary my-2 my-sm-0 m-1" type="submit">Search</button>
+                            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Login</button>
+                        </form>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0 rounded-lg">
+                <a href="index.html" class="navbar-brand d-block d-lg-none blur-style">
+                    <h1 class="m-0 display-4  nav_h1_style h1_text_shadow"><span class=" i_style">i</span>CREAM</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">About</a>
+                            <div class="dropdown">
+                                <a href="#" class="nav-item nav-link dropdown-toggle" type="" data-toggle="dropdown" aria-expanded="false">
+                                    Product</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#delicious_icecream">IceCream</a>
+                                        <a class="dropdown-item" href="#delicious_icecream">IceCream Waffer</a>
+                                        <a class="dropdown-item" href="#delicious_icecream">IceCream Waffer & Cup</a>
+                                    </div>
+                            </div>       
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block blur-style">
+                        <h1 class="m-0 display-4 nav_h1_style h1_text_shadow"><span class="i_style">i</span>CREAM</h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="#" class="nav-item nav-link">Service</a>
+                        <a href="#" class="nav-item nav-link">Gallery</a>
+                        <a href="#" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5 ">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner position-relative">
+                <div class="carousel-item active">
+                    <img class="w-100" src="imgs/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 1100px;">
+                            <h4 class="text-white text-uppercase mb-md-3" style="font-size: 18px;">Traditional & Delicious</h4>
+                            <h1 class="display-3 text-white mb-md-4" style="font-size: 35px; padding:0px 5px;">Made With Love </h1>
+                            <a href="" class="btn border-0 text-light py-md-3 px-md-5  rounded-pill bg-pink bg-p-hover">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="imgs/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 1100px; ">
+                            <h4 class="text-white text-uppercase mb-md-3" style="font-size: 18px;">Traditional & Delicious</h4>
+                            <h1 class="display-3 text-white mb-md-4" style="font-size: 35px; padding:0px 22px;">Made With Love</h1>
+                            <a href="" class="btn border-0 text-light py-md-3 px-md-5  rounded-pill bg-pink bg-p-hover">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img class="w-100" src="imgs/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 1100px;">
+                            <h4 class="text-white text-uppercase mb-md-3" style="font-size: 18px;">Traditional & Delicious</h4>
+                            <h1 class="display-3 text-white mb-md-4" style="font-size: 35px; padding:0px 5px;">Made With Love </h1>
+                            <a href="" class="btn border-0 text-light py-md-3 px-md-5  rounded-pill bg-pink bg-p-hover">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators d-flex position-absolute slid-indicat" >
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-secondary px-0 border-0 rounded-circle" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n1"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-secondary border-0 rounded-circle px-0" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n1"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+
+
+
+    <!-- Promotion Start -->
+    <div class="container-fluid my-5 py-5 px-0">
+        <div class="row  m-0">
+            <div class="col-md-6 px-0" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="imgs/promotion.jpg" style="object-fit: cover;">
+                    
+                </div>
+            </div>
+            <div class="col-md-6 py-5 py-md-0 px-0">
+                <div class="h-100 d-flex flex-column align-items-center justify-content-center text-center p-5 bg-pink">
+                    <div class="d-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                        style="width: 100px; height: 100px;">
+                        <h3 class="font-weight-bold  mb-0" style="color: #62C3E7;">$199</h3>
+                    </div>
+                    <h3 class="font-weight-bold text-white mt-3 mb-4">Chocolate Ice Cream</h3>
+                    <p class="text-white mb-4">Lorem justo clita dolor ipsum ut sed eos, ipsum et dolor kasd sit ea
+                        justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
+                    <a href="" class="btn btn-secondary py-3 px-5 mt-2 rounded-pill ">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promotion End -->
+    <!-- offer start -->
+    
+    <div class="accordion text-center" id="accordionExample">
+        <h1 class="text-center text-light bg-pink p-3 m-0 ">Our Offers In The Shop</h1>
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0 text-center" >
+              <button class="btn btn-link btn-block " style="font-size: 25px; text-decoration: none; " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                IceCream Offer
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body bg-dark-pink text-light ">
+              <p class="card-text ">Two vanilla ice cream and two chocolate ice Cream</p>
+               
+              <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block  collapsed" style="font-size: 25px; text-decoration: none; " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Waffer IceCream
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body bg-dark-pink text-light">
+                <p class="card-text">Two vanilla ice cream and two chocolate ice Cream</p>
+               
+                <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block  collapsed" style="font-size: 25px; text-decoration: none; " type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Cup IceCream
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body bg-dark-pink text-light">
+                <p class="card-text">Two vanilla ice cream and two chocolate ice Cream</p>
+               
+                <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a> </div>
+          </div>
+        </div>
+      </div>
+      <!--/offer end  -->
+
+
+
+
+
+<div class="container pt-5">
+
+
+    <h1 class="text-center text-light p-3 m-0 bg-pink">Some Reviews</h1>
+    <div class="card bg-dark-pink text-light text-center " >
+        <div class="card-body">
+            <h4 class="text-light">Best Services We Provide For Our Clients here</h4>
+            <button type="button" class="btn mt-4 text-light border-0 rounded-pill bg-pink bg-p-hover" data-toggle="tooltip" data-placement="top" title="More Reviews">
+                More Reviews
+            </button>
+            
+        </div>
+    </div>
+    <hr>
+    
+    <h1 class="text-center text-light p-3 m-0 bg-pink">Some Reviews</h1>
+    <div class="card bg-dark-pink text-light text-center " >
+        <div class="card-body">
+            <h4 class="text-light">Best Services We Provide For Our Clients here</h4>
+            <button type="button" class="btn mt-4 text-light border-0 rounded-pill bg-pink bg-p-hover" data-toggle="tooltip" data-placement="top" title="More Reviews">
+                More Reviews
+            </button>
+            
+        </div>
+    </div>
+    
+    <hr>
+    
+    <h1 class="text-center text-light p-3 m-0 bg-pink">Some Reviews</h1>
+    <div class="card bg-dark-pink text-light text-center " >
+        <div class="card-body">
+            <h4 class="text-light">Best Services We Provide For Our Clients here</h4>
+            <button type="button" class="btn mt-4 text-light border-0 rounded-pill bg-pink bg-p-hover" data-toggle="tooltip" data-placement="top" title="More Reviews">
+                More Reviews
+            </button>
+            
+        </div>
+    </div>
+    
+</div>
+
+<hr>
+
+
+    <div class="container " id="delicious_icecream">
+        <h1 class="text-center text-light  p-3 m-0 mt-5 bg-pink">Delicious IceCream</h1>
+        <div class="row ">
+                
+                <div class="card bg-dark-pink text-light col-lg-3 col-md-4 col-sm-12 m-1 mt-5 mx-auto text-center" style="width: 18rem;">
+                    <a href="#" target="_blank">
+                    <img src="imgs/portfolio-1.jpg" class="card-img-top img-fluid pt-1" alt="css pic"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">Smozii</h5>
+                    <p class="card-text">smozi cup with waffer cream</p>
+                    <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a>
+                    </div>
+                </div>
+              
+                <div class="card bg-dark-pink text-light col-lg-3 col-md-4 col-sm-12 m-1 mt-5 mx-auto text-center" style="width: 18rem;">
+                    <a href="#" target="_blank">
+                    <img src="imgs/portfolio-2.jpg" class="card-img-top img-fluid pt-1" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">IceCream</h5>
+                    <p class="card-text">IceCream vanilla Red Perry</p>
+                    <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a>
+                    </div>
+                </div>
+               
+                <div class="card bg-dark-pink text-light col-lg-3 col-md-4 col-sm-12 m-1 mt-5 mx-auto text-center" style="width: 18rem;">
+                    <a href="#" target="_blank">
+                    <img src="imgs/portfolio-3.jpg" class="card-img-top img-fluid pt-1" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">IceCream</h5>
+                    <p class="card-text">IceCream Waffer mango</p>
+                    <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a>
+                    </div>
+                </div>
+               
+            </div>    
+            <div class="row ">
+                
+                <div class="card bg-dark-pink text-light col-lg-3 col-md-4 col-sm-12 m-1 mt-5 mx-auto text-center" style="width: 18rem;">
+                    <a href="#" target="_blank">
+                    <img src="imgs/portfolio-4.jpg" class="card-img-top img-fluid pt-1" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">IceCream</h5>
+                    <p class="card-text">Choocklate and stropery kono</p>
+                    <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a>
+                    </div>
+                </div>
+                
+                <div class="card bg-dark-pink text-light col-lg-3 col-md-4 col-sm-12 m-1 mt-5 mx-auto text-center" style="width: 18rem;">
+                    <a href="#" target="_blank">
+                    <img src="imgs/portfolio-5.jpg" class="card-img-top img-fluid pt-1" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">IceCream</h5>
+                    <p class="card-text">types and flavour of IceCream</p>
+                    <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover">Add To Cart</a>
+                    </div>
+                </div>
+                
+                <div class="card bg-dark-pink text-light col-lg-3 col-md-4 col-sm-12 m-1 mt-5 mx-auto text-center" style="width: 18rem;">
+                    <a href="#" target="_blank">
+                    <img src="imgs/portfolio-6.jpg" class="card-img-top img-fluid pt-1" alt="css pic" height="265PX"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">IceCream</h5>
+                    <p class="card-text">IceCream Waffer Vanilaa</p>
+                    <a href="#" class="btn btn-primary border-0 rounded-pill bg-pink bg-p-hover ">Add To Cart</a>
+                    </div>
+                </div>
+               
+            
+        </div>
+    </div>    
+  
+  <hr>
+  
+
+
+
+
+            
+
+<div class="container-fluid mt-5 testimonial ">
+    
+        <h2 class="text-center  p-3 m-0  w-50 m-auto border-bottom  border-dark " style="font-size: 25px; font-weight: bold;">thanks for</h1>
+    
+        <div class="row  text-center  w-100 m-auto">
+            <div class="col-6 mt-3 ">
+                <div class="item1 ">
+                    <img class="rounded-circle" src="imgs/testimonial-2.jpg "/>
+                    <h3>Tom Robin</h3>
+                    <span style="font-weight: bold;">Manager of the shopt</span>
+                    <p  class="p-0">We have been operating for over 30 years <br>and are Members of The Federation </p>
+                </div>
+               
+            </div>
+            <div class="col-6  mt-3">
+                <div class="item1 ">
+                    <img class="rounded-circle" src="imgs/testimonial-1.jpg"/>
+                    <h3>Mickle Robin</h3>
+                    <span class="font-weight-bold">Owner of the shop</span>
+                    <p  class="p-0">We have been operating for over 30 years<br> and are Members of The Federation </p>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+  
+
+</div>
+
+
+
+  <hr class="my-4">
+  
+
+
+
+
+  
+
+
+  <!-- Team Start -->
+    <div class="container-fluid py-5 mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">Experienced & Most Famous Ice Cream Chefs</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel team-carousel row">
+                        <div class="team-item col-lg-3 col-md-6 col-sm-6">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="imgs/team-1.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Tom Haford</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1 circle-social">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item col-lg-3 col-md-6 col-sm-6">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="imgs/team-2.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Alison Argent</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item col-lg-3 col-md-6 col-sm-6">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="imgs/team-3.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Scott Mccall</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item col-lg-3 col-md-6 col-sm-6">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="imgs/team-4.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Stiles Stilinski</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+
+
+
+    <!-- join us -->
+<div class="container-fluid mt-5 testimonial testimonial-join" > 
+    <h1 class="text-center  p-3 m-0 bg-light-trans w-50 m-auto text-primary" style="font-size: 25px; ">Join To US</h1>
+    
+    <div class="row m-auto row-join">
+        <div class="col-lg-3 col-md-3 col-sm-6 mt-5 ">
+            <div class="card border-primary mb-3 text-center border-0  bg-light-trans join-item"  style="height: 250px; ">
+                <div class="card-header font-weight-bolder  bg-transparent text-primary p-2" style="font-size: 17px; text-transform: capitalize;">Subscb</div>
+                <div class="d-flex justify-content-center pt-4">
+                  <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fas fa-bell"></i></a>
+                
+                </div>
+                <a class="text-decoration-none pb-5 pt-3 text-muted" href="index.html" style="font-size: 16px; font-weight: 500; ">Tab To Subscribe</a>
+            </div>
+        </div>    
+        <div class="col-lg-3 col-md-3 col-sm-6 mt-5">
+            <div class="card border-primary mb-3 text-center border-0  bg-light-trans join-item" style="height: 250px;">
+                <div class="card-header font-weight-bolder  bg-transparent text-primary p-2" style="font-size: 17px; text-transform: uppercase;">LIKE</div>
+                <div class="d-flex justify-content-center pt-4">
+                  <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fas fa-thumbs-up"></i></a>
+                
+                </div>
+                <a class="text-decoration-none pb-5 pt-3 text-muted" href="index.html" style="font-size: 16px; font-weight: 500; ">Tab To Subscribe</a>
+            </div>
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-6 mt-5">
+            <div class="card border-primary mb-3 text-center border-0  bg-light-trans join-item" style="height: 250px; ">
+                <div class="card-header font-weight-bolder  bg-transparent text-primary p-2" style="font-size: 17px; text-transform: uppercase;">UNLIKE </div>
+                <div class="d-flex justify-content-center pt-4">
+                  <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fas fa-thumbs-down"></i></a>
+                
+                </div>
+                <a class="text-decoration-none pb-5 pt-3 text-muted" href="index.html" style="font-size: 16px; font-weight: 500; ">Tab To Subscribe</a>
+            </div>
+        </div>   
+        <div class="col-lg-3 col-md-3 col-sm-6 mt-5">
+            <div class="card border-primary mb-3 text-center border-0  bg-light-trans join-item" style="height: 250px; ">
+                <div class="card-header font-weight-bolder  bg-transparent text-primary p-2" style="font-size: 17px; text-transform: uppercase;">Share</div>
+                <div class="d-flex justify-content-center pt-4">
+                  <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fas fa-share"></i></a>
+                
+                </div>
+                <a class="text-decoration-none pb-5 pt-3 text-muted" href="index.html"  style="font-size: 16px; font-weight: 500; ">Tab To Subscribe</a>
+            </div>
+        </div>   
+    
+    </div>
+
+
+</div>
+<!-- /join us -->
+
+
+
+
+<!-- Footer Start -->
+<div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <a href="index.html" class="navbar-brand m-0">
+                    <h1 class="m-0 mt-n2 display-4 nav_h1_style h1_text_shadow"><span class="i_style">i</span>CREAM</h1>
+                </a>
+            </div>
+            <div class="col-12 mb-4">
+                <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-12 mt-2 mb-4">
+                <div class="row">
+                    <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                        <h5 class="font-weight-bold mb-2">Get In Touch</h5>
+                        <p class="mb-2">123 Street, New York, USA</p>
+                        <p class="mb-0">+012 345 67790</p>
+                    </div>
+                    <div class="col-sm-6 text-center text-sm-left">
+                        <h5 class="font-weight-bold mb-2">Opening Hours</h5>
+                        <p class="mb-2">Mon – Sat, 8AM – 5PM</p>
+                        <p class="mb-0">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="m-0"> <a href="index.html">Domain</a>. All Rights Reserved. Designed by <a href="index.html">HTML css bootstrap</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+
+    
+
+
+    <script src="js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
